@@ -32,6 +32,8 @@ public class laboratorijasDarbsDivi {
         //ka nav vienāds liekam priekša ! zīmi
         System.out.println(!luksaforaKrasa.equals("red"));
 
+
+
         x = 5;
         y = 5;
         int z = 8;

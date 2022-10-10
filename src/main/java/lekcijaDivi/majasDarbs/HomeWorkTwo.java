@@ -29,6 +29,7 @@ public class HomeWorkTwo {
         int q = 10;
         System.out.println(q * q > 10);
 
+        //Otrais uzdevums
         System.out.println("2.uzdevums");
 
         System.out.println("Lūdzu ievadi kalendārā mēneša numuru:");
@@ -74,6 +75,26 @@ public class HomeWorkTwo {
                 System.out.println("Ievadīts neatbilstošs cipars");
 
         }
+        System.out.println("Trešais uzdevums");
+
+        System.out.println("Lūdzu ievadi pirmo skaitli");
+        int a  = scannerInt.nextInt();
+        System.out.println("Lūdzu ievadi otro skaitli");
+        int b  = scannerInt.nextInt();
+        System.out.println("Lūdzu ievadi trešo skaitli");
+        int c  = scannerInt.nextInt();
+
+        if (a>b && a>c) {
+            System.out.println("Skaitlis" + a + "ir lielākais");
+        }
+        else if (b>a && b>c){
+                System.out.println("Skaitlis"+b+"ir lielākais");
+            } else if (c>a && c>b){
+            System.out.println("Skaitlis"+c+"ir lielākais");
+        }
+        System.out.println("Piektais uzdevums);
+             
+
     }
 
 }
