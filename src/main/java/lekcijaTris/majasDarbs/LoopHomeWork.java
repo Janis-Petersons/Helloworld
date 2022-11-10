@@ -10,7 +10,7 @@ public class LoopHomeWork {
 
         System.out.println("3.UZDEVUMS");
         Uzdevums3();
-
+        Uzdevums4();
     }
 
     public static void Uzdevums1() {
@@ -102,6 +102,11 @@ public class LoopHomeWork {
         for (int i = 2; i <100 ; i+=2) { //atradu internetā ka var modificēt uz "i+=2"
             System.out.println(i);
         }
-        
+
+    }
+
+    public static void Uzdevums4() {
+        System.out.println("Diemžēl es nesaprotu 4. uzdevumu.");
+
     }
 }
