@@ -99,14 +99,25 @@ public class LoopHomeWork {
     }
 
     public static void Uzdevums3() {
+        //izvadu skaitļus pa vienam katrā rindā
         for (int i = 2; i <100 ; i+=2) { //atradu internetā ka var modificēt uz "i+=2"
             System.out.println(i);
         }
+//        //šeit nesanāk izvadīt visus skaitļus vienā rindā
+//        for (int i = 2; i <100 ; i+=2) { //atradu internetā ka var modificēt uz "i+=2"
+//            for ( int rindaa: i ) {
+//                System.out.println(rindaa);
+//            }
+        }
 
-    }
 
     public static void Uzdevums4() {
-        System.out.println("Diemžēl es nesaprotu 4. uzdevumu.");
-
+        System.out.println("Diemžēl nemācēju līdz galam izpildīt 4. uzdevumu.");
+        Scanner ievade = new Scanner(System.in);
+        System.out.println("Lūdzu ievadi veselu skaitli...");
+//        int skaitlis=ievade.nextInt();
+//        int faktorialis =1;
+//        for (int i = 1; i < skaitlis; i=i-1) {
+//            System.out.println(faktorialis);
+        }
     }
-}
