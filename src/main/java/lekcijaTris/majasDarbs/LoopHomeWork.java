@@ -115,9 +115,6 @@ public class LoopHomeWork {
         System.out.println("Diemžēl nemācēju līdz galam izpildīt 4. uzdevumu.");
         Scanner ievade = new Scanner(System.in);
         System.out.println("Lūdzu ievadi veselu skaitli...");
-//        int skaitlis=ievade.nextInt();
-//        int faktorialis =1;
-//        for (int i = 1; i < skaitlis; i=i-1) {
-//            System.out.println(faktorialis);
+
         }
     }
