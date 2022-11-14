@@ -1,17 +1,19 @@
 package lekcijaCetri.labDarbs;
-//ievadu datus
+
 public class rinkis {
-   double r;
-   double PI=3.14;
+    double r = 0;
+    final double PI = 3.14;
 
+    public rinkis(double r) {
+        this.r = r;
+    }
 
-//uztaisu darbības un dodos uz MAIN lai palaistu
-   public double rekinatLaukumu(){
-       return r*r*PI;
-   }
+    public double rekinatLaukumu() {
+        return r * r * PI;
+    }
 
-    public double rekinatLinijasGarumu (){
-       return 2*PI*r;
+    public double rekinatLinijasGarumu(){
+        return 2 * PI * r;
     }
 
 }
