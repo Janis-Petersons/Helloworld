@@ -6,25 +6,25 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 public class firstSeleniumTests {
-    WebDriver parluks;
+    WebDriver parluuks;
     @BeforeMethod
     public void setupBrowser (){
-        parluks = new ChromeDriver();
-        parluks.navigate().to("https://www.lu.lv/");
-        parluks.manage().window().maximize();
+        parluuks = new ChromeDriver();
+        parluuks.navigate().to("https://www.lu.lv/");
+        parluuks.manage().window().maximize();
     }
 @AfterMethod
 public void tearDownBrowser(){
-    parluks.quit();
+    parluuks.quit();
 }
     @Test
     public void testFirstWebpage() {
-        parluks.navigate().to("https://www.lu.lv/");
+        parluuks.navigate().to("https://www.lu.lv/");
     }
     @Test
 
     public void testPageTitle() {
-        String nosaukums = parluks.getTitle();
+        String nosaukums = parluuks.getTitle();
         Assert.assertEquals(nosaukums, "Latvijas Universitāte");
 
 

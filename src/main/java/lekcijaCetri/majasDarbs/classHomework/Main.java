@@ -11,10 +11,12 @@ public class Main {
 
         trijsturis trijsturisDivi= new trijsturis(); //šis ir konstruktors ar definētām vērtībām
         trijsturisDivi.malaA=4;
-        trijsturisDivi.malaB=6;
-        trijsturisDivi.malaC=8;
+        trijsturisDivi.malaB=5;
+        trijsturisDivi.malaC=6;
         trijsturisDivi.printetlaukumu();
 
+        System.out.println(trijsturisDivi.vaiirvienadmalu);
+        System.out.println(trijsturisDivi.vaiirvienadsanu);
     }
 
 }

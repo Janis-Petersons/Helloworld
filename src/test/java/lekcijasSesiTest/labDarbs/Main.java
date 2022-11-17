@@ -1,4 +1,4 @@
-package lekcijasSesiTest.labDarbs;
-
-public class Main {
-}
+//package lekcijasSesiTest.labDarbs;
+//
+//public class Main {
+//}
