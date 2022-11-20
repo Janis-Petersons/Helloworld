@@ -1,19 +1,42 @@
-//package lekcijaAstoni.pageObjects;
-//
-//import org.openqa.selenium.By;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
-//
-//public class ProductsPage { //1. nosaukums
-//    WebDriver parluks;
-//
-//    private By pageTitle = By.cssSelector("span.title"); // 3. identificējam lokatoru kur ir jāmeklē
-//
-//    public ProductsPage(WebDriver parluks) { //2.atvers lapu
-//        this.parluks = parluks;
-//    }
-//
-//    public WebElement getPageTitle(){     //4. metode ar kuru mēs varēsim dabūt to elementu
-//return parluks.findElement(pageTitle);
-//    }
-//}
+package lekcijaAstoni.pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
+public class ProductsPage {
+
+    WebDriver parluks;
+    WebDriverWait wait;
+
+    private By pageTitle = By.cssSelector("span.title"); //lokatori daļām no web lapas
+    private By cartButton = By.id("shopping_cart_container");
+
+    private By addProducttoCart = By.id("add-to-cart-sauce-labs-bike-light");
+
+    public ProductsPage(WebDriver parluks) {
+        this.parluks = parluks;
+        wait = new WebDriverWait(parluks, Duration.ofSeconds(10));
+    }
+
+    public WebElement getCartButton() {
+
+        return parluks.findElement(cartButton);
+    }
+
+    public WebElement getPageTitle() {
+        return parluks.findElement(pageTitle);
+    }
+
+    public WebElement getaddProducttoCart() {
+        return parluks.findElement(addProducttoCart);
+    }
+
+
+
+
+}
