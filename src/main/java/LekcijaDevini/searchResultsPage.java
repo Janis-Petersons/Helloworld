@@ -1,0 +1,26 @@
+package LekcijaDevini;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.List;
+
+//public class searchResultsPage {
+//
+//    WebDriver driver;
+//    WebDriverWait wait;
+
+//
+//    public void MainPage(WebDriver driver) {
+//        this.driver = driver;
+//        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//    }
+//
+//   private By searchResultlist = By.cssSelector("div.b-product--wrap2");
+//  public List <WebElement> getsearchResultlist(){
+//       return driver.findElement(searchResultlist);
+//   }
+//}
