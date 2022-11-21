@@ -1,8 +1,6 @@
 package seleniumHomework;
 
 import pageObjectsHomework.pageObjects.*;
-//import lekcijaAstoni.pageObjects.*;
-import lekcijaSeptini.labDarbs.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -60,9 +58,9 @@ public class ScenarijsViens extends BaseTest {
         Assert.assertEquals(checkoutcompletelapa.getcheckoutPageTitle().getText(),"CHECKOUT: COMPLETE!");
         Thread.sleep(5000);
 
-//        System.out.println("11. Doties atpakaļ uz pirmo lapu ar pogu 'Back Home'"); Es nesaprotu kāpēc nestrādā....
-//        CheckoutComplete jaunachecklapa = new CheckoutComplete(parluks);
-//        jaunachecklapa.clickPressBackHomeButton();
+        System.out.println("11. Doties atpakaļ uz pirmo lapu ar pogu 'Back Home'");
+        CheckoutComplete jaunachecklapa = new CheckoutComplete(parluks);
+//        jaunachecklapa.clickPressBackHomeButton();            Nesaprotu kāpēc nenostrādā.
 //        Thread.sleep(5000);
 
     }

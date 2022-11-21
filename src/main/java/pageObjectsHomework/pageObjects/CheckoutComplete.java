@@ -10,7 +10,7 @@ public class CheckoutComplete {
 
     private By checkoutPageTitle = By.className("title");
 
-private By pressBackHomeButton= By.id("back_to_products");
+    private By pressBackHomeButton= By.id("back_to_products");
     public WebElement getcheckoutPageTitle(){
         return driver.findElement(checkoutPageTitle);
     }
@@ -18,7 +18,6 @@ private By pressBackHomeButton= By.id("back_to_products");
     public void clickPressBackHomeButton(){ //void jo nav jādod ārā rezultāti
         driver.findElement(pressBackHomeButton).click();
     }
-
     public CheckoutComplete(WebDriver driver) {
         this.driver =driver;
     }

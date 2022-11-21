@@ -4,18 +4,8 @@ import pageObjectsHomework.pageObjects.CartPage;
 import pageObjectsHomework.pageObjects.CheckoutPage;
 import pageObjectsHomework.pageObjects.LoginPage;
 import pageObjectsHomework.pageObjects.ProductsPage;
-import lekcijaSeptini.labDarbs.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-//import lekcijaAstoni.pageObjects.CartPage;
-//import lekcijaAstoni.pageObjects.CheckoutPage;
-//import lekcijaAstoni.pageObjects.LoginPage;
-//import lekcijaAstoni.pageObjects.ProductsPage;
-//import lekcijaSeptini.labDarbs.BaseTest;
-//import org.testng.Assert;
-//import org.testng.annotations.Test;
-
 
 public class ScenarijsDivi extends BaseTest {
 
