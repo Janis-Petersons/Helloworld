@@ -13,7 +13,6 @@ public class Main {
 
         Cilindrs cilindrs2 = new Cilindrs(45,15);
         System.out.println("Cilindrs nr. 2");
-        //tests
         cilindrs2.printcilindrs();
 
         System.out.println("Cilindra 1 tilpums ir "+cilindrs1.getAprTilpumu());

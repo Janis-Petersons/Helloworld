@@ -5,13 +5,14 @@ public class Cilindrs {
     private int radiuss;
     private int augstums;
 
+    //geteri un seteri
     public int getRadiuss() {
         return radiuss;
     }
-//geteri un seteri
     public void setRadiuss(int radiuss) {
         this.radiuss = radiuss;
     }
+
 
     public int getAugstums() {
         return augstums;
